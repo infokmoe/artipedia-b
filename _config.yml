@@ -1,0 +1,51 @@
+title: BSE - ArtiPedia
+author: ArtiPedia
+email: artipedia243@gmail.com
+description: > 
+  BSE - Buku Sekolah Elektronik
+baseurl: "/"
+url: "https://buku.artipedia.site"
+google_tag_manager: UA-115101359-15
+twitter_username: ArtiPedia243
+github_username: ArtiPedia
+instagram_username:  
+social:
+  name: ArtiPedia
+  links:
+    - https://twitter.com/ArtiPedia243
+    - https://www.facebook.com/Artipedia.id
+    - https://www.linkedin.com/in/ 
+    - https://plus.google.com/ 
+    - https://github.com/ArtiPedia
+    - https://keybase.io/ 
+
+disqus:
+  shortname: Artipedia
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # or pygments or null
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /bse/:title.html
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+encoding: UTF-8
